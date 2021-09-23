@@ -1,0 +1,127 @@
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.GLG-header {
+  background: #0f122b;
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  margin:  0;
+}
+
+
+.nav-list {
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin:  0;
+font-family: Nunito Sans, Arial, sans-serif;
+} 
+
+#link-color {
+  color:  white;
+  text-decoration:  none;
+}
+
+.active {
+    background-color: #deb016;
+}
+
+.nav-item {
+	color:  white;
+	font-size:  18px;
+	padding: 0px 10px;
+	cursor: pointer;
+	
+}
+.upcoming-events-header {
+  color: #526175;
+  font-weight: bold;
+  margin:  0;
+  padding-left: 40px;
+  padding-top: 20px;
+  
+}
+
+hr {
+  background-color: #526175;
+  border:  none;
+  height: 2px;
+  margin:  0;
+}
+
+.glg-logo {
+  width: 100px;
+  height: auto;
+  padding: 30px 20px;
+}
+
+main {
+	background: #e1e5eb;
+	padding: 100px 30 px;
+}
+
+.body-background {
+  background-image: ;
+}
+
+#card-one-img {
+  background-image: url("https://media.istockphoto.com/photos/accountant-working-with-us-tax-forms-picture-id1096860416?k=20&m=1096860416&s=612x612&w=0&h=-3IyWf6IX0O_TndcDyhqCfUSWr2k-6xDO-q2tbqa6Yw=");
+  }
+.PA-header {
+  padding-left: 40px;
+  margin:  0;
+}
+.row-one {
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap:  10px;
+}
+.row-two {
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap:  10px;
+}
+
+footer {
+	background: #526175;
+  display:  flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:  30px;
+}
+
+.footer-section {
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: wrap;
+  list-style:  none;
+  color:  white;
+  gap: 20px;
+}
+.copyright-language {
+  display:  flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  list-style:  none;
+  color:  white;
+  gap: 5px;
+}
+
+// example
+
