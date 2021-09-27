@@ -308,7 +308,7 @@ min-width: 150px;
 
 @media (max-width: 985px) {
   .main-body {
-    width: 80%;
+    width: 100%;
   }
   .main-body-header {
     font-size: 25px;
