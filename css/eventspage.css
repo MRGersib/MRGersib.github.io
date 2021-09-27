@@ -361,7 +361,7 @@ a {
 .content-gallery {
   margin: 20px;
   padding: 20px;
-  background-color: #526175ff;
+  background-color: white;
 }
 
 .group-one {
@@ -393,10 +393,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: rgb(207,176,35);
 }
 .group-header {
   width: 100%;
-  color: white;
+  color: rgb(207,176,35);
   font-size: 30px;
   text-align: left;
   padding-bottom: 10px;
@@ -417,6 +418,7 @@ a {
   background-color: #ebecf0ff;
   color: #0f122bff;
   height: auto;
+  border-radius: 8px;
 }
 .event-group-text-area {
   height: 200px;
@@ -426,6 +428,7 @@ a {
   margin: 0px;
   max-width: 100%;
   padding-bottom: 5px;
+  border-radius: 5px;
 }
 
 .event-group-NM {
@@ -443,6 +446,11 @@ a {
   padding-bottom: 5px;
 }
 
+button {
+  border-radius: 5px;
+  background-color: rgb(245,217,219);
+  border-color: #f8e2e4ff;
+}
 
 /*footer*/
 .GLG-footer {
