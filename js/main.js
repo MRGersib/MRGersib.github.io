@@ -91,11 +91,11 @@ function validateForm(event) {
   
   let courseSelect = document.querySelector("#course-select");
   if (courseSelect.value === "Select One") {
-    addError("Please select a course");
+    addError("Please select an option");
   }
   let pastExperience = document.querySelector("#past-experience").value;
-  if (pastExperience.length < 50) {
-    addError("Past experience must be at least 50 characters");
+  if (pastExperience.length < 20) {
+    addError("Description must be at least 20 characters");
   }
 }
 
