@@ -370,6 +370,25 @@ a {
   grid-gap: 10px;
 }
 
+@media (max-width: 1085px) {
+    .group-one {
+      grid-template-columns: 1fr 1fr;
+    }
+    .event-group-NM {
+      display: none;
+    }
+    .event-group-name {
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .event-group-date {
+      font-size: 8px;
+      text-transform: uppercase;
+    }
+}
+
+
+
 .group-header-and-icons {
   display: flex;
   justify-content: space-between;
