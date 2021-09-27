@@ -191,7 +191,7 @@ min-width: 150px;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-index: 20;
 }
 
 .side-menu-design {
@@ -268,7 +268,7 @@ min-width: 150px;
   align-items: center;
   flex-direction: column;
   margin: 90px 30px;
-  background-image:linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)), url("https://wallpaperaccess.com/full/4528489.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, .2),rgba(0, 0, 0, .2)), url("https://images.pexels.com/photos/1544943/pexels-photo-1544943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center center;
   position: relative;
   background-size: cover;
@@ -306,6 +306,24 @@ min-width: 150px;
 
 }
 
+@media (max-width: 985px) {
+  .main-body {
+    width: 80%;
+  }
+  .main-body-header {
+    font-size: 25px;
+  }
+  .main-body-subtext {
+    font-size:  15px;
+  }
+  .main-featured-content-text {
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+  .main-bullet-text {
+    font-size: 15px;
+  }
+}
 /*access section*/
 .contact-access-section {
   background-color: #adb5c2;
